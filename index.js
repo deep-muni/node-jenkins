@@ -3,7 +3,7 @@ import express from "express";
 const app = express();
 
 app.get("/", (req, res, next) => {
- res.json("Hello Deep");
+ res.json("Hello Sneha");
 });
 
 app.listen(3000, () => {
